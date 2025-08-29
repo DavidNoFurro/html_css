@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.estado {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.estado h2 {
+    margin-bottom: 10px;
+}
+
+/* Colores para cada estado */
+.feliz {
+    background-color: #ffe066; /* amarillo */
+}
+
+.triste {
+    background-color: #a0c4ff; /* azul claro */
+}
+
+.enojado {
+    background-color: #ff6b6b; /* rojo claro */
+}
+
+.concentracion {
+    background-color: #b2f2bb; /* verde claro */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
